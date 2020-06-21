@@ -324,10 +324,14 @@ footer div {
 }
 
 @media screen and (max-width: 1300px) {
-  #navbar h2 {
+  #navbar .container h2 {
     font-size: 3rem;
   }
-  #navbar ul li a {
+  #navbar .container h2::before {
+    width: 7rem;
+    height: 7rem;
+  }
+  #navbar .container ul li a {
     font-size: 2rem;
   }
   #showcase img {

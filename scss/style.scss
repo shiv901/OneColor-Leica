@@ -74,9 +74,14 @@ html {
 
 @media screen and (max-width: 1300px){
 
-  #navbar{
+  #navbar .container{
     h2 {
       font-size: 3rem;
+
+      &::before{
+        width: 7rem;
+        height: 7rem;
+      }
     }
     ul {
       li a{
