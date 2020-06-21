@@ -118,7 +118,7 @@ html {
   display: inline-block;
   padding: 1rem 2rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -389,7 +389,8 @@ footer div {
     font-size: 3rem;
   }
   #navbar ul li a {
-    font-size: 2rem;
+    display: none;
+    font-size: 3rem;
   }
   #showcase {
     -ms-grid-columns: 10% 1fr 10% !important;
@@ -420,7 +421,7 @@ footer div {
     bottom: 0;
   }
   #soon h1 {
-    top: 30%;
+    top: 35%;
     font-size: 6rem;
     text-align: center;
   }

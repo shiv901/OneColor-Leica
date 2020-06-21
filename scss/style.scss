@@ -142,11 +142,12 @@ html {
   #navbar{
     h2 {
       font-size: 3rem;
+      // display: none;
     }
-    ul {
-      li a{
-      font-size: 2rem;
-    }}
+    ul li a{
+      display: none;
+      font-size: 3rem;
+    }
   }
     #showcase{
       grid-template-columns: 10% 1fr 10% !important;
@@ -182,7 +183,7 @@ html {
 
   #soon{
     h1{
-      top:30%;
+      top:35%;
       font-size: 6rem;
       text-align: center;
     }
