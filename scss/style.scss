@@ -79,7 +79,6 @@ html {
       font-size: 3rem;
     }
     ul {
-      display: inline;
       li a{
       font-size: 2rem;
     }}
@@ -140,7 +139,32 @@ html {
     font-size: 50%;
   }
 
+  #navbar{
+    h2 {
+      font-size: 3rem;
+    }
+    ul {
+      li a{
+      font-size: 2rem;
+    }}
+  }
+    #showcase{
+      grid-template-columns: 10% 1fr 10% !important;
+      
+
+      h1,img,.info{
+        // display: none;
+        grid-column: 2/3;
+        align-self: center;
+        text-align: center;
+      }
+      img{
+        height: 80%;
+      }
+    }
+
   #features .container .cards{
+
     .card {
       min-height: 30rem;
       h3{
@@ -152,6 +176,17 @@ html {
     }
   }
 
+  #features .wave{
+    bottom:0;
+  } 
+
+  #soon{
+    h1{
+      top:30%;
+      font-size: 6rem;
+      text-align: center;
+    }
+  }
 
   footer{
     .container{

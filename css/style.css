@@ -327,9 +327,6 @@ footer div {
   #navbar h2 {
     font-size: 3rem;
   }
-  #navbar ul {
-    display: inline;
-  }
   #navbar ul li a {
     font-size: 2rem;
   }
@@ -388,6 +385,28 @@ footer div {
   html {
     font-size: 50%;
   }
+  #navbar h2 {
+    font-size: 3rem;
+  }
+  #navbar ul li a {
+    font-size: 2rem;
+  }
+  #showcase {
+    -ms-grid-columns: 10% 1fr 10% !important;
+        grid-template-columns: 10% 1fr 10% !important;
+  }
+  #showcase h1, #showcase img, #showcase .info {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+  }
+  #showcase img {
+    height: 80%;
+  }
   #features .container .cards .card {
     min-height: 30rem;
   }
@@ -396,6 +415,14 @@ footer div {
   }
   #features .container .cards .card p {
     font-size: 1.5rem;
+  }
+  #features .wave {
+    bottom: 0;
+  }
+  #soon h1 {
+    top: 30%;
+    font-size: 6rem;
+    text-align: center;
   }
   footer .container h3 {
     -webkit-box-flex: 1;
